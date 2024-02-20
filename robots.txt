@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /wp-content/themes/
+Allow: /wp-includes/js/
+Allow: /wp-content/js/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin
+
+User-agent: Yandex
+Allow: /wp-content/themes/
+Allow: /wp-includes/js/
+Allow: /wp-content/js/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin
+Disallow: /file
+
+host: utorrent-com.github.io
+
+Sitemap: https://utorrent-com.github.io/sitemap.xml
